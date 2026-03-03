@@ -1,0 +1,26 @@
+Flask>=3.0.0
+flask-cors>=4.0.0
+flask-socketio>=5.3.0
+opencv-python>=4.9.0.80
+ultralytics>=8.2.0
+python-dotenv>=1.0.0
+# Detectron2 is optional here because a vendored copy exists under backend/detectron2.
+# To use a prebuilt wheel instead of the vendored source, install detectron2 compatible with your CUDA/PyTorch.
+# Note: We use threading mode, so eventlet/gevent are not required
+
+
+
+requests>=2.31.0
+simple-websocket>=1.0.0
+eventlet>=0.33.0
+
+# Database Dependencies
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# Google Drive & System
+google-api-python-client>=2.0.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=1.0.0
+google-cloud-storage>=2.14.0
+psutil>=5.9.0

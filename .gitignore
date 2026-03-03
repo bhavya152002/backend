@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.log
+*.pyc
+recordings_temp/
+sheets-*.json
